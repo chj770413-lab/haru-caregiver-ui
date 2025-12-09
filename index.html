@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>하루동행 보호자 센터</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="app-title">하루동행 보호자 센터</h1>
+      <p class="app-subtitle">부모님 오늘 상태를 한눈에 확인해보세요.</p>
+    </header>
+
+    <!-- 화면이 바뀌는 영역 -->
+    <main id="screen"></main>
+
+    <!-- 하단 네비게이션 -->
+    <nav class="bottom-nav">
+      <button class="nav-btn" onclick="goHome()">홈</button>
+      <button class="nav-btn" onclick="goDetail()">상세 기록</button>
+      <button class="nav-btn" onclick="goSettings()">알림 설정</button>
+    </nav>
+  </div>
+
+  <script src="caregiver.js"></script>
+</body>
+</html>
