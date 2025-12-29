@@ -233,3 +233,50 @@ body {
 .nav-btn:active {
   background-color: #e5e7eb;
 }
+.guardian-report-card {
+  max-width: 420px;
+  margin: 24px auto;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.report-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.report-summary {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.report-metric {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.metric-note {
+  font-size: 14px;
+  color: #777;
+}
+
+.label {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.quote {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.report-comment .text {
+  font-size: 15px;
+  color: #444;
+}
